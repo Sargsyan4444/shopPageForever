@@ -6,13 +6,13 @@ export const ShopContext = createContext()
 
 const ShopContextProvider = (props)=>{
 
-    const curency = "$"
+    const currency = "$"
 
     const delivery_fee = 10
 
 
     const value = {
-        products , curency,delivery_fee
+        products , currency, delivery_fee
     }
 
     return(
